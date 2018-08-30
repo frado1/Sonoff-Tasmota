@@ -28,7 +28,7 @@
  * Use online command StateText to translate ON, OFF, HOLD and TOGGLE.
  * Use online command Prefix to translate cmnd, stat and tele.
  *
- * Updated until v6.1.1.7
+ * Updated until v6.1.1b
 \*********************************************************************/
 
 #define LANGUAGE_MODULE_NAME         // Enable to display "Module Generic" (ie Spanish), Disable to display "Generic Module" (ie English)
@@ -206,7 +206,7 @@
 #define D_ERASED_SECTOR "Secteur effacé"
 
 // xdrv_02_webserver.ino
-#define D_NOSCRIPT "Pour utiliser Tasmota, veuillez activer JavaScript"
+#define D_NOSCRIPT "To use Tasmota, please enable JavaScript"
 #define D_MINIMAL_FIRMWARE_PLEASE_UPGRADE "Firmware MINIMAL - merci de mettre à jour"
 #define D_WEBSERVER_ACTIVE_ON "Serveur web actif sur"
 #define D_WITH_IP_ADDRESS "avec l'adresse IP"
@@ -380,7 +380,7 @@
 // xdrv_09_timers.ino
 #define D_CONFIGURE_TIMER "Configuration des Timers"
 #define D_TIMER_PARAMETERS "Paramètres Timer"
-#define D_TIMER_ENABLE "Activer les Timers"
+#define D_TIMER_ENABLE "Activer des Timers"
 #define D_TIMER_ARM "Armer"
 #define D_TIMER_TIME "Temps"
 #define D_TIMER_DAYS "Jours"
@@ -438,12 +438,12 @@
 #define D_PARTICALS_BEYOND "Particules"
 
 // xsns_32_mpu6050.ino
-#define D_AX_AXIS "Accél. Axe-X"
-#define D_AY_AXIS "Accél. Axe-Y"
-#define D_AZ_AXIS "Accél. Axe-Z"
-#define D_GX_AXIS "Gyro Axe-X"
-#define D_GY_AXIS "Gyro Axe-Y"
-#define D_GZ_AXIS "Gyro Axe-Z"
+#define D_AX_AXIS "Accel. X-Axis"
+#define D_AY_AXIS "Accel. Y-Axis"
+#define D_AZ_AXIS "Accel. Z-Axis"
+#define D_GX_AXIS "Gyro X-Axis"
+#define D_GY_AXIS "Gyro Y-Axis"
+#define D_GZ_AXIS "Gyro Z-Axis"
 
 // sonoff_template.h
 #define D_SENSOR_NONE     "Aucun"
@@ -472,7 +472,8 @@
 #define D_SENSOR_SPI_DC   "SPI DC"
 #define D_SENSOR_BACKLIGHT "RétroÉcl"
 #define D_SENSOR_PMS5003  "PMS5003"
-#define D_SENSOR_SDS0X1   "SDS0X1"
+#define D_SENSOR_SDS0X1_RX "SDS0X1 Rx"
+#define D_SENSOR_SDS0X1_TX "SDS0X1 Tx"
 #define D_SENSOR_SBR_RX   "SerBr Rx"
 #define D_SENSOR_SBR_TX   "SerBr Tx"
 #define D_SENSOR_SR04_TRIG "SR04 Tri"
